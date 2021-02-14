@@ -1,0 +1,78 @@
+@font-face {
+    font-family: Helvetica Neue;
+    src: url(../fonts/HelveticaNeue.ttf);
+  }
+
+
+.bg_color{
+    background-color: #F7F7F7;
+}
+
+.logo img{
+    width: 50%;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.login_logo img{
+    width: 20%;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.input_field{
+    border: 1px solid #ddd;
+    font-size: 14px !important;
+    font-family: Helvetica Neue;
+}
+.input_field::placeholder{
+    font-size: 14px !important;
+    font-family: Helvetica Neue;
+}
+.input_field:focus{
+    border: 1px solid #FF6347;
+}
+
+/* password Show-hide */
+
+.field-icon {
+    float: right;
+    margin-top: -33px;
+    margin-right: 14px;
+    position: relative;
+    z-index: 2;
+}
+
+/* Login Area */
+.login_panel{
+    margin-top: 10%;
+}
+
+.login_area{
+    border-radius: 23px;
+    background-color: #fff;
+}
+
+.login_area h2{
+    font-size: 33px;
+    margin: 0 ;
+}
+
+.label_font{
+    font-family: Helvetica Neue;
+    font-size: 18px;
+}
+
+.form-control:focus {
+    border-color:#FF6347 !important;
+    box-shadow: 0 0 0 2px rgba(255, 99, 71, 25%) !important;
+}
+
+.login_btn{
+    background-color: #FF6347;
+    border: 2px solid #FF6347;
+}
+
+.login_btn:hover{
+    background-color: #fff;
+    border: 2px solid #FF6347;
+    color: #FF6347 !important;
+}

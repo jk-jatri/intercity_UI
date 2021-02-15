@@ -32,7 +32,6 @@
 }
 
 /* password Show-hide */
-
 .field-icon {
     float: right;
     margin-top: -33px;
@@ -75,4 +74,69 @@
     background-color: #fff;
     border: 2px solid #FF6347;
     color: #FF6347 !important;
+}
+
+
+/* ======================== Dashboard page design =========================== */
+.navbar_bg{
+    background-color: #3B3B3B;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.04);
+}
+
+.font_detail,
+.dashboard_nav li a,
+.coach_detail tr th,
+.coach_detail tr td{
+    font-size: 14px !important;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.brand_name,
+.dashboard_nav li a{
+    color: #fff !important;
+}
+.dashboard_nav li ul li a{
+    color: #000 !important;
+}
+
+.mobile_nav_toggle{
+    border: 1px solid #fff !important;
+    color: #fff i !important;
+}
+
+.select_area{
+    background-color: #242424;
+}
+
+.common_btn{
+    background-color: #FF6347;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: 1px solid #FF6347;
+}
+
+.common_btn:hover{
+    background-color: #fff;
+    color: #FF6347;
+}
+
+.select_item{
+    padding: 6px 4px 6px 8px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+}
+
+.table_head{
+    background-color: #FF6347;
+    color: #fff;
+}
+
+.hidden_row{
+    display: none;
+    height: 100px;
+    border: 1px solid #FF6347;
 }

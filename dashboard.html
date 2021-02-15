@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Font Awesome link -->
+    <script src="https://kit.fontawesome.com/8d1a1dd134.js" crossorigin="anonymous"></script>
+
+    <!-- jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light navbar_bg">
+            <div class="container-fluid">
+                <a class="navbar-brand brand_name font_detail" href="#">DASHBOARD</a>
+                <button class="navbar-toggler mobile_nav_toggle" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav dashboard_nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">COACH ACTIVE/INACTIVE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">COUNTER FOUND</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">BOARD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DISCOUNT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">REPORTS</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav dashboard_nav d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ARRIVED/DEPART STATUS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">QUICK TICKET VIEW</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                MY ACCOUNT
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item text-dark" href="#">LOG IN</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-dark" href="#">LOG OUT</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="select_area py-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <label for="" class="font_detail text-white">Leaving From:</label>
+                            <select class="form-select form-select-sm w-100 font_detail"
+                                aria-label=".form-select-sm example">
+                                <option selected>Dhaka</option>
+                                <option value="1">Mymensingh</option>
+                                <option value="2">Chittagoan</option>
+                                <option value="3">Rajshahi</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="" class="font_detail text-white">Going To:</label>
+                            <select class="form-select form-select-sm w-100 font_detail"
+                                aria-label=".form-select-sm example">
+                                <option selected>Dhaka</option>
+                                <option value="1">Mymensingh</option>
+                                <option value="2">Chittagoan</option>
+                                <option value="3">Rajshahi</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="" class="font_detail text-white">Coach:</label>
+                            <select class="form-select form-select-sm w-100 font_detail"
+                                aria-label=".form-select-sm example">
+                                <option selected>Ena</option>
+                                <option value="1">Hanif</option>
+                                <option value="2">Shamoli</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="" class="font_detail text-white">Departing On:</label>
+                            <input class="select_item form-select-sm w-100 font_detail" type="date">
+                        </div>
+                        <div class="col-md-2">
+                            <label for="" class="font_detail text-white">Departing Time:</label>
+                            <input class="select_item form-select-sm w-100 font_detail" type="time">
+                        </div>
+                        <div class="col-md-2">
+                            <label for="" class="font_detail text-white"></label>
+                            <button class="common_btn font_detail w-100"><i class="fas fa-search"></i> Search</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label for="" class="font_detail text-white"></label>
+                            <button class="common_btn font_detail w-100">Goods</button>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="" class="font_detail text-white"></label>
+                            <button class="common_btn font_detail w-100">Transfer Seat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main>
+        <div class="table-responsive">
+            <table class="table coach_detail table-striped">
+                <thead class="table_head text-center">
+                    <tr>
+                        <th class="text-left" scope="col">Boarding Time & Date</th>
+                        <th scope="col">Coach No.</th>
+                        <th scope="col">Starting Counter</th>
+                        <th scope="col">End Counter</th>
+                        <th scope="col">Registration Number</th>
+                        <th scope="col">Fare</th>
+                        <th scope="col">Coach Type</th>
+                        <th scope="col">Sold</th>
+                        <th scope="col">Booked</th>
+                        <th scope="col">Available</th>
+                        <th scope="col">Seat</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center">
+                    <tr>
+                        <td scope="col"><span>08:00 AM</span> <span>31/12/2021</span></td>
+                        <td scope="col">1</td>
+                        <td scope="col">Gabtoli 6No. Counter</td>
+                        <td scope="col">Kaptai Counter</td>
+                        <td scope="col">16-022021</td>
+                        <td scope="col">E-Class: 550</td>
+                        <td scope="col">Non-AC</td>
+                        <td scope="col">14</td>
+                        <td scope="col">2</td>
+                        <td scope="col">24</td>
+                        <td scope="col"><button id="view_button" class="common_btn font_detail"><span id="button_text">View Seat</span></button></td>
+                    </tr>
+                    <tr id="hide_row" class="hidden_row w-100"> 
+
+                    </tr>
+                    <tr>
+                        <td scope="col"><span>08:00 AM</span> <span>31/12/2021</span></td>
+                        <td scope="col">1</td>
+                        <td scope="col">Gabtoli 6No. Counter</td>
+                        <td scope="col">Kaptai Counter</td>
+                        <td scope="col">16-022021</td>
+                        <td scope="col">E-Class: 550</td>
+                        <td scope="col">Non-AC</td>
+                        <td scope="col">14</td>
+                        <td scope="col">2</td>
+                        <td scope="col">24</td>
+                        <td scope="col"><button class="common_btn font_detail">View Seat</button></td>
+                    </tr>
+                    <tr>
+                        <td scope="col"><span>08:00 AM</span> <span>31/12/2021</span></td>
+                        <td scope="col">1</td>
+                        <td scope="col">Gabtoli 6No. Counter</td>
+                        <td scope="col">Kaptai Counter</td>
+                        <td scope="col">16-022021</td>
+                        <td scope="col">E-Class: 550</td>
+                        <td scope="col">Non-AC</td>
+                        <td scope="col">14</td>
+                        <td scope="col">2</td>
+                        <td scope="col">24</td>
+                        <td scope="col"><button class="common_btn font_detail">View Seat</button></td>
+                    </tr>
+                    <tr>
+                        <td scope="col"><span>08:00 AM</span> <span>31/12/2021</span></td>
+                        <td scope="col">1</td>
+                        <td scope="col">Gabtoli 6No. Counter</td>
+                        <td scope="col">Kaptai Counter</td>
+                        <td scope="col">16-022021</td>
+                        <td scope="col">E-Class: 550</td>
+                        <td scope="col">Non-AC</td>
+                        <td scope="col">14</td>
+                        <td scope="col">2</td>
+                        <td scope="col">24</td>
+                        <td scope="col"><button class="common_btn font_detail">View Seat</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <!-- Javascript -->
+    <script src="js/app.js"></script>
+    <!-- Bootstrap js Bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

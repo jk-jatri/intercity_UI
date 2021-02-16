@@ -10,18 +10,25 @@ $(".toggle-password").click(function () {
 });
 
 
+// Seat view details
 
-// table view details
+var acc = document.getElementsByClassName("table_row");
+var buttonText = document.getElementById('button_text');
+var i;
 
-const view = document.getElementById('view_button');
-const hiddenRow = document.getElementById('hide_row');
-const buttonText = document.getElementById('button_text');
-view.addEventListener('click', function(){
-  hiddenRow.classList.toggle('d-block');
-  if(buttonText.innerHTML === "View Seat"){
-    buttonText.innerHTML = "Hide Seat";
-  }
-  else{
-    buttonText.innerHTML = "View Seat";
-  }
-})
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    if(buttonText.innerHTML === "View Seat"){
+      buttonText.innerHTML = "Hide Seat";
+    }
+    else{
+      buttonText.innerHTML = "View Seat";
+    }
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}

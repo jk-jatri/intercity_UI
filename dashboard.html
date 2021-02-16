@@ -400,113 +400,121 @@
                     </div>
 
 
-                    <div class="col-md-8">
-                        <!-- seat info -->
-                        <h5>Seat Information</h5>
-                        <table class="table information_table table-responsive">
-                            <thead>
-                                <tr class="border-0">
-                                    <th scope="col">Seat Number</th>
-                                    <th scope="col">Ticket Number</th>
-                                    <th scope="col">Fare(Taka)</th>
-                                    <th scope="col">Discount</th>
-                                    <th scope="col">Remove</th>
-                                </tr>
-                            </thead>
-                            <tbody class="table-striped border-1">
-                                <tr>
-                                    <td class="border-1">Total Seat#</td>
-                                    <td class="border-1"></td>
-                                    <td class="border-1"></td>
-                                    <td class="border-1"></td>
-                                    <td class="border-1"></td>
-                                </tr>
-                                <tr>
-                                    <th class="border-1"></th>
-                                    <td class="border-1"></td>
-                                    <td class="border-1"></td>
-                                    <td class="border-1"></td>
-                                    <td class="border-1"></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="col-md-8 ">
+                        <div class="px-3">
+                            <!-- seat info -->
+                            <h5>Seat Information</h5>
+                            <table class="table information_table table-responsive">
+                                <thead>
+                                    <tr class="border-0">
+                                        <th scope="col">Seat Number</th>
+                                        <th scope="col">Ticket Number</th>
+                                        <th scope="col">Fare(Taka)</th>
+                                        <th scope="col">Discount</th>
+                                        <th scope="col">Remove</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="table-striped border-1">
+                                    <tr>
+                                        <td class="border-1">Total Seat#</td>
+                                        <td class="border-1"></td>
+                                        <td class="border-1"></td>
+                                        <td class="border-1"></td>
+                                        <td class="border-1"></td>
+                                    </tr>
+                                    <tr>
+                                        <th class="border-1">Total Seat#</th>
+                                        <td class="border-1"></td>
+                                        <td class="border-1"></td>
+                                        <td class="border-1"></td>
+                                        <td class="border-1"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
 
-                        <!-- Booking info -->
-                        <h5>Booking Information</h5>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="booking_info">
-                                    <label>Passenger Mobile</label>
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1">+880</span>
-                                        <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                            <!-- Booking info -->
+                            <h5>Booking Information</h5>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="booking_info">
+                                        <label>Passenger Mobile</label>
+                                        <div class="input-group mb-3">
+                                            <span class="input-group-text" id="basic-addon1">+880</span>
+                                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                    
+                                        <label>Name</label>
+                                        <input class="form-control" type="text">
+                                    
+                                        <label>Gender</label>
+                                        <select class="form-select form-select-sm w-100 font_detail"
+                                            aria-label=".form-select-sm example">
+                                            <option selected>Select an option</option>
+                                            <option value="1">Male</option>
+                                            <option value="2">Female</option>
+                                            <option value="3">Other</option>
+                                        </select>
+
+                                        <label>Age</label>
+                                        <input class="form-control" type="text">
+                                    
+                                        <label>Passport</label>
+                                        <input class="form-control" type="text">
+                                    
+                                        <label>Goods(kg)</label>
+                                        <input class="form-control" type="text">
+
+                                        <label>Goods Discount</label>
+                                        <input class="form-control" type="text">
+                                    
+                                        <label>Total Paid</label>
+                                        <input class="form-control" type="text">
                                     </div>
-                                
-                                    <label>Name</label>
-                                    <input class="form-control" type="text">
-                                
-                                    <label>Gender</label>
-                                    <select class="form-select form-select-sm w-100 font_detail"
-                                        aria-label=".form-select-sm example">
-                                        <option selected>Select an option</option>
-                                        <option value="1">Male</option>
-                                        <option value="2">Female</option>
-                                        <option value="3">Other</option>
-                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="booking_info">
+                                        <label>Boarding Point</label>
+                                        <select class="form-select form-select-sm w-100 font_detail"
+                                            aria-label=".form-select-sm example">
+                                            <option selected>Select a boarding point</option>
+                                            <option value="1">Dhaka</option>
+                                            <option value="2">Chittagoang</option>
+                                            <option value="3">Rajshahi</option>
+                                        </select>
+                                    
+                                        <label>Drooping Point</label>
+                                        <select class="form-select form-select-sm w-100 font_detail"
+                                            aria-label=".form-select-sm example">
+                                            <option selected>Select a drooping point</option>
+                                            <option value="1">Dhaka</option>
+                                            <option value="2">Chittagoang</option>
+                                            <option value="3">Rajshahi</option>  
+                                        </select>
+                                    
+                                        <label>Address</label>
+                                        <input class="form-control" type="text">
 
-                                    <label>Age</label>
-                                    <input class="form-control" type="text">
-                                
-                                    <label>Passport</label>
-                                    <input class="form-control" type="text">
-                                
-                                    <label>Goods(kg)</label>
-                                    <input class="form-control" type="text">
+                                        <label>Nationality</label>
+                                        <input class="form-control" type="text">
+                                    
+                                        <label>Boarding Place</label>
+                                        <input class="form-control" type="text">
+                                    
+                                        <label>Gross Pay</label>
+                                        <input class="form-control" type="text">
 
-                                    <label>Goods Discount</label>
-                                    <input class="form-control" type="text">
-                                
-                                    <label>Total Paid</label>
-                                    <input class="form-control" type="text">
+                                        <label>Net pay</label>
+                                        <input class="form-control" type="text">
+                                    
+                                        <label>Refund</label>
+                                        <input class="form-control" type="text">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="booking_info">
-                                    <label>Boarding Point</label>
-                                    <select class="form-select form-select-sm w-100 font_detail"
-                                        aria-label=".form-select-sm example">
-                                        <option selected>Select a boarding point</option>
-                                        <option value="1">Dhaka</option>
-                                        <option value="2">Chittagoang</option>
-                                        <option value="3">Rajshahi</option>
-                                    </select>
-                                
-                                    <label>Drooping Point</label>
-                                    <select class="form-select form-select-sm w-100 font_detail"
-                                        aria-label=".form-select-sm example">
-                                        <option selected>Select a drooping point</option>
-                                        <option value="1">Dhaka</option>
-                                        <option value="2">Chittagoang</option>
-                                        <option value="3">Rajshahi</option>  
-                                    </select>
-                                
-                                    <label>Address</label>
-                                    <input class="form-control" type="text">
-
-                                    <label>Nationality</label>
-                                    <input class="form-control" type="text">
-                                
-                                    <label>Boarding Place</label>
-                                    <input class="form-control" type="text">
-                                
-                                    <label>Gross Pay</label>
-                                    <input class="form-control" type="text">
-
-                                    <label>Net pay</label>
-                                    <input class="form-control" type="text">
-                                
-                                    <label>Refund</label>
-                                    <input class="form-control" type="text">
+                            <div class="row justify-content-md-center mt-3">
+                                <div class="col col-lg-2">
+                                <button class="common_btn block_btn">Reset</button>
+                                <button class="common_btn corporate_btn">Confirm</button>
                                 </div>
                             </div>
                         </div>

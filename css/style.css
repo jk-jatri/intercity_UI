@@ -227,6 +227,10 @@
     transition: max-height 0.2s ease-out;
 }
 
+/* .maximum_height{
+    height: auto;
+} */
+
 .booking_info {
     display:grid;
     grid-template-columns: max-content max-content;
@@ -237,4 +241,7 @@
 }
 .booking_info label:after { 
     content: ":"; 
+}
+.form_width{
+    width: 250px !important;
 }

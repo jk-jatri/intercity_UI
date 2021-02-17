@@ -1,3 +1,9 @@
+@media only screen and (min-width: 1441) and (max-width: 1876px){
+    .font_detail{
+        font-size: 12px !important;
+    }
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px){
     .font_detail,
     .dashboard_nav li a,
@@ -13,5 +19,24 @@
     .coach_detail tr th,
     .coach_detail tr td{
         font-size: 9px !important;
+    }
+
+    .table_content{
+        overflow-x: scroll;
+        width: 100%;
+    }
+
+    .form_width {
+        width: 200px !important;
+    }
+
+    .mb_lg_device{
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+    .font_detail{
+        font-size: 11px !important;
     }
 }

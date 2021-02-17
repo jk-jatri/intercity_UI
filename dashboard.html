@@ -10,6 +10,7 @@
     <!-- Css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/color.css">
 
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -27,6 +28,7 @@
 <body>
 
     <header>
+        <!-- Main menu -->
         <nav class="navbar navbar-expand-lg navbar-light navbar_bg">
             <div class="container-fluid">
                 <a class="navbar-brand brand_name font_detail" href="#">DASHBOARD</a>
@@ -80,6 +82,7 @@
     </header>
 
     <section class="select_area py-3">
+        <!-- Searching menu -->
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-9">
@@ -144,377 +147,377 @@
     </section>
 
 
-    <main>
-        <div class="table_header">
-            <div class="container-fluid">
-                <div class="row table_head font_detail">
-                    <div class="col-md-2"><p>Boarding Time & Date</p></div>
-                    <div class="col-md-1 text-center"><p>Coach No.</p></div>        	
-                    <div class="col-md-1 text-center"><p>Starting Counter</p></div>
-                    <div class="col-md-1 text-center"><p>End Counter</p></div>
-                    <div class="col-md-1 text-center"><p>Registration Number</p></div>
-                    <div class="col-md-1 text-center"><p>Fare</p></div>    	
-                    <div class="col-md-1 text-center"><p>Coach Type</p></div>
-                    <div class="col-md-1 text-center"><p>Sold</p></div>
-                    <div class="col-md-1 text-center"><p>Booked</p></div>
-                    <div class="col-md-1 text-center"><p>Available</p></div>
-                    <div class="col-md-1 text-center"><p>Seat</p></div>
-                </div>
-            </div>
-        </div>
-        <div class="table_row">
-            <div class="container-fluid">
-                <div class="row font_detail">
-                    <div class="col-md-2"><span>08:00 AM</span> <span>31/12/2021</span></div>
-                    <div class="col-md-1 text-center">1</div>        	
-                    <div class="col-md-1 text-center">Gabtoli 6No. Counter</div>
-                    <div class="col-md-1 text-center">Kaptai Counter</div>
-                    <div class="col-md-1 text-center">16-022021</div>
-                    <div class="col-md-1 text-center">E-Class: 550</div>    	
-                    <div class="col-md-1 text-center">Non-AC</div>
-                    <div class="col-md-1 text-center">14</div>
-                    <div class="col-md-1 text-center">2</div>
-                    <div class="col-md-1 text-center">24</div>
-                    <div class="col-md-1 text-center table_button"><button class="common_btn corporate_btn buttonText font_detail"><span id="button_text">View Seat</span></button></div>
-                </div>
-            </div>
-        </div>
-        <div class="panel">
-            <div class="container-fluid">
-                <div class="row mt-3">
-                    <div class="col-md-4">
-                        <h5>Ena Transport Ltd.</h5>
-
-                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-                            <div class="col"><button class="common_btn font_detail corporate_btn buttonText w-100 font_detail">Status</button></div>
-                            <div class="col"><button class="common_btn font_detail corporate_btn buttonText w-100 font_detail">Refresh</button></div>
-                            <div class="col"><button class="common_btn font_detail corporate_btn buttonText w-100 font_detail">Trip Sheet</button></div>
-                            <div class="col"><button class="common_btn font_detail corporate_btn buttonText w-100 font_detail">Seat Status</button></div>
-                        </div>
-                        <div class="row row-cols-12 mt-2">
-                            <div class="col"><button class="success_btn common_btn font_detail buttonText w-100 font_detail">Departure Status</button></div>
-                        </div>
-                        <div class="row row-cols-12 mt-2">
-                            <div class="col-4">
-                                <div class="rounded border border-1 py-2">
-                                    <p class="text-center">Sold (12)</p>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <button class="rounded-end info_btn common_btn font_detail w-100">Male</button>
-                                            <p class="text-center">0</p>
-                                        </div>
-                                        <div class="col-6">
-                                            <button class="rounded-start primary_btn common_btn font_detail w-100">Female</button>
-                                            <p class="text-center">12</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="rounded border border-1 py-2">
-                                    <p class="text-center">Booked (12)</p>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <button class="rounded-end danger_btn common_btn font_detail w-100">Male</button>
-                                            <p class="text-center">0</p>
-                                        </div>
-                                        <div class="col-6">
-                                            <button class="rounded-start warning_btn common_btn font_detail w-100">Female</button>
-                                            <p class="text-center">12</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="rounded border border-1 py-2">
-                                    <p class="text-center">Other (12)</p>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <button class="rounded-end white_btn common_btn font_detail w-100">Available</button>
-                                            <p class="text-center">0</p>
-                                        </div>
-                                        <div class="col-6">
-                                            <button class="rounded-start block_btn common_btn font_detail w-100">Block</button>
-                                            <p class="text-center">12</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="rounded border border-1 mt-2 py-2">
-                            <div class="row row-cols-12 px-2 mt-1">
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">A1</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">A2</button>
-                                </div>
-                                <div class="col">
-                                    
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">A3</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">A4</button>
-                                </div>
-                            </div>
-                            <div class="row row-cols-12 px-2 mt-1">
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">B1</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">B2</button>
-                                </div>
-                                <div class="col">
-                                    
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">B3</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">B4</button>
-                                </div>
-                            </div>
-                            <div class="row row-cols-12 px-2 mt-1">
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">C1</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">C2</button>
-                                </div>
-                                <div class="col">
-                                    
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">C3</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">C4</button>
-                                </div>
-                            </div>
-                            <div class="row row-cols-12 px-2 mt-1">
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">D1</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">D2</button>
-                                </div>
-                                <div class="col">
-                                    
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">D3</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">D4</button>
-                                </div>
-                            </div>
-                            <div class="row row-cols-12 px-2 mt-1">
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">E1</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">E2</button>
-                                </div>
-                                <div class="col">
-                                    
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">E3</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">E4</button>
-                                </div>
-                            </div>
-                            <div class="row row-cols-12 px-2 mt-1">
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">F1</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">F2</button>
-                                </div>
-                                <div class="col">
-                                    
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">F3</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">F4</button>
-                                </div>
-                            </div>
-                            <div class="row row-cols-12 px-2 mt-1">
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">G1</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">G2</button>
-                                </div>
-                                <div class="col">
-                                    
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">G3</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">G4</button>
-                                </div>
-                            </div>
-                            <div class="row row-cols-12 px-2 mt-1">
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">H1</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">H2</button>
-                                </div>
-                                <div class="col">
-                                    
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">H3</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">H4</button>
-                                </div>
-                            </div>
-                            <div class="row row-cols-12 px-2 mt-1">
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">I1</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">I2</button>
-                                </div>
-                                <div class="col">
-                                    
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">I3</button>
-                                </div>
-                                <div class="col">
-                                    <button class="rounded-end white_btn common_btn font_detail w-100">I4</button>
-                                </div>
-                            </div>
-                        </div>
+    <main class="">
+        <div class="table_content">
+            <div class="table_header">
+                <div class="container-fluid">
+                    <div class="row table_head font_detail">
+                        <div class="col-md-2"><p class="font_detail">Boarding Time & Date</p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">Coach No.</p></div>        	
+                        <div class="col-md-1 text-center"><p class="font_detail">Starting Counter</p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">End Counter</p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">Registration Number</p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">Fare</p></div>    	
+                        <div class="col-md-1 text-center"><p class="font_detail">Coach Type</p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">Sold</p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">Booked</p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">Available</p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">Seat</p></div>
                     </div>
-
-
-                    <div class="col-md-8 ">
-                        <div class="px-3">
-                            <!-- seat info -->
-                            <h5>Seat Information</h5>
-                            <table class="table information_table table-responsive">
-                                <thead>
-                                    <tr class="border-0">
-                                        <th scope="col">Seat Number</th>
-                                        <th scope="col">Ticket Number</th>
-                                        <th scope="col">Fare(Taka)</th>
-                                        <th scope="col">Discount</th>
-                                        <th scope="col">Remove</th>
-                                    </tr>
-                                </thead>
-                                <tbody class="table-striped border-1">
-                                    <tr>
-                                        <td class="border-1">Total Seat#</td>
-                                        <td class="border-1"></td>
-                                        <td class="border-1"></td>
-                                        <td class="border-1"></td>
-                                        <td class="border-1"></td>
-                                    </tr>
-                                    <tr>
-                                        <th class="border-1">Total Seat#</th>
-                                        <td class="border-1"></td>
-                                        <td class="border-1"></td>
-                                        <td class="border-1"></td>
-                                        <td class="border-1"></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-                            <!-- Booking info -->
-                            <h5>Booking Information</h5>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="booking_info">
-                                        <label>Passenger Mobile</label>
-                                        <div class="input-group mb-3">
-                                            <span class="input-group-text" id="basic-addon1">+880</span>
-                                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="table_row">
+                <div class="container-fluid">
+                    <div class="row font_detail">
+                        <div class="col-md-2"><p class="font_detail"><span>08:00 AM</span> <span>31/12/2021</span></p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">1</p></div>        	
+                        <div class="col-md-1 text-center"><p class="font_detail">Gabtoli 6No. Counter</p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">Kaptai Counter</p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">16-022021</p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">E-Class: 550</p></div>    	
+                        <div class="col-md-1 text-center"><p class="font_detail">Non-AC</p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">14</p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">2</p></div>
+                        <div class="col-md-1 text-center"><p class="font_detail">24</p></div>
+                        <div class="col-md-1 text-center table_button"><button class="common_btn corporate_btn buttonText font_detail"><span id="button_text">View Seat</span></button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="container-fluid">
+                    <div class="row mt-3">
+                        <div class="col-md-12 col-lg-4">
+                            <h5>Ena Transport Ltd.</h5>
+    
+                            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                                <div class="col col-lg-6 col-xl-3"><button class="common_btn font_detail corporate_btn buttonText w-100 font_detail">Status</button></div>
+                                <div class="col col-lg-6 col-xl-3"><button class="common_btn font_detail corporate_btn buttonText w-100 font_detail">Refresh</button></div>
+                                <div class="col col-lg-6 col-xl-3"><button class="common_btn font_detail corporate_btn buttonText w-100 font_detail">Trip Sheet</button></div>
+                                <div class="col col-lg-6 col-xl-3"><button class="common_btn font_detail corporate_btn buttonText w-100 font_detail">Seat Status</button></div>
+                            </div>
+                            <div class="row row-cols-12 mt-2">
+                                <div class="col"><button class="success_btn common_btn font_detail buttonText w-100 font_detail">Departure Status</button></div>
+                            </div>
+                            <div class="row row-cols-12 mt-2">
+                                <div class="col-lg-12 col-xl-4 mb_lg_device">
+                                    <div class="rounded border border-1 py-2">
+                                        <p class="text-center font_detail">Sold (12)</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <button class="rounded-end female_sold common_btn font_detail w-100">Male</button>
+                                                <p class="text-center font_detail">0</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="rounded-start male_sold common_btn font_detail w-100">Female</button>
+                                                <p class="text-center font_detail">12</p>
+                                            </div>
                                         </div>
-                                    
-                                        <label>Name</label>
-                                        <input class="form-control" type="text">
-                                    
-                                        <label>Gender</label>
-                                        <select class="form-select form-select-sm w-100 font_detail"
-                                            aria-label=".form-select-sm example">
-                                            <option selected>Select an option</option>
-                                            <option value="1">Male</option>
-                                            <option value="2">Female</option>
-                                            <option value="3">Other</option>
-                                        </select>
-
-                                        <label>Age</label>
-                                        <input class="form-control" type="text">
-                                    
-                                        <label>Passport</label>
-                                        <input class="form-control" type="text">
-                                    
-                                        <label>Goods(kg)</label>
-                                        <input class="form-control" type="text">
-
-                                        <label>Goods Discount</label>
-                                        <input class="form-control" type="text">
-                                    
-                                        <label>Total Paid</label>
-                                        <input class="form-control" type="text">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="booking_info">
-                                        <label>Boarding Point</label>
-                                        <select class="form-select form-select-sm w-100 font_detail"
-                                            aria-label=".form-select-sm example">
-                                            <option selected>Select a boarding point</option>
-                                            <option value="1">Dhaka</option>
-                                            <option value="2">Chittagoang</option>
-                                            <option value="3">Rajshahi</option>
-                                        </select>
-                                    
-                                        <label>Drooping Point</label>
-                                        <select class="form-select form-select-sm w-100 font_detail"
-                                            aria-label=".form-select-sm example">
-                                            <option selected>Select a drooping point</option>
-                                            <option value="1">Dhaka</option>
-                                            <option value="2">Chittagoang</option>
-                                            <option value="3">Rajshahi</option>  
-                                        </select>
-                                    
-                                        <label>Address</label>
-                                        <input class="form-control" type="text">
-
-                                        <label>Nationality</label>
-                                        <input class="form-control" type="text">
-                                    
-                                        <label>Boarding Place</label>
-                                        <input class="form-control" type="text">
-                                    
-                                        <label>Gross Pay</label>
-                                        <input class="form-control" type="text">
-
-                                        <label>Net pay</label>
-                                        <input class="form-control" type="text">
-                                    
-                                        <label>Refund</label>
-                                        <input class="form-control" type="text">
+                                <div class="col-lg-12 col-xl-4 mb_lg_device">
+                                    <div class="rounded border border-1 py-2">
+                                        <p class="text-center font_detail">Booked (12)</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <button class="rounded-end male_booked common_btn font_detail w-100">Male</button>
+                                                <p class="text-center font_detail">0</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="rounded-start female_booked common_btn font_detail w-100">Female</button>
+                                                <p class="text-center font_detail">12</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-xl-4 mb_lg_device">
+                                    <div class="rounded border border-1 py-2">
+                                        <p class="text-center font_detail">Other (12)</p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <button class="rounded-end available_other common_btn font_detail w-100">Available</button>
+                                                <p class="text-center font_detail">0</p>
+                                            </div>
+                                            <div class="col-6">
+                                                <button class="rounded-start block_other common_btn font_detail w-100">Block</button>
+                                                <p class="text-center font_detail">12</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="row justify-content-md-center mt-3">
-                                <div class="col col-lg-2">
-                                <button class="common_btn block_btn">Reset</button>
-                                <button class="common_btn corporate_btn">Confirm</button>
+                            
+                            <div class="rounded border border-1 mt-2 py-2">
+                                <div class="row row-cols-12 px-2 mt-1">
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">A1</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">A2</button>
+                                    </div>
+                                    <div class="col">
+                                        
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">A3</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">A4</button>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-12 px-2 mt-1">
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">B1</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">B2</button>
+                                    </div>
+                                    <div class="col">
+                                        
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">B3</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">B4</button>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-12 px-2 mt-1">
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">C1</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">C2</button>
+                                    </div>
+                                    <div class="col">
+                                        
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">C3</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">C4</button>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-12 px-2 mt-1">
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">D1</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">D2</button>
+                                    </div>
+                                    <div class="col">
+                                        
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">D3</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">D4</button>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-12 px-2 mt-1">
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">E1</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">E2</button>
+                                    </div>
+                                    <div class="col">
+                                        
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">E3</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">E4</button>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-12 px-2 mt-1">
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">F1</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">F2</button>
+                                    </div>
+                                    <div class="col">
+                                        
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">F3</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">F4</button>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-12 px-2 mt-1">
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">G1</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">G2</button>
+                                    </div>
+                                    <div class="col">
+                                        
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">G3</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">G4</button>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-12 px-2 mt-1">
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">H1</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">H2</button>
+                                    </div>
+                                    <div class="col">
+                                        
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">H3</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">H4</button>
+                                    </div>
+                                </div>
+                                <div class="row row-cols-12 px-2 mt-1">
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">I1</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">I2</button>
+                                    </div>
+                                    <div class="col">
+                                        
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">I3</button>
+                                    </div>
+                                    <div class="col">
+                                        <button class="rounded-end available_other common_btn font_detail w-100">I4</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="col-md-12 col-lg-8">
+                            <div class="px-3">
+                                <!-- seat info -->
+                                <h5>Seat Information</h5>
+                                <table class="table information_table table-responsive">
+                                    <thead>
+                                        <tr class="border-0">
+                                            <td scope="col" class="text-center font_detail">Seat Number</td>
+                                            <td scope="col" class="text-center font_detail">Ticket No.</td>
+                                            <td scope="col" class="text-center font_detail">Fare(Taka)</td>
+                                            <td scope="col" class="text-center font_detail">Discount</td>
+                                            <td scope="col" class="text-center font_detail">Remove</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="table-striped border-1">
+                                        <tr>
+                                            <td class="border-1">Total Seat#</td>
+                                            <td class="border-1"></td>
+                                            <td class="border-1"></td>
+                                            <td class="border-1"></td>
+                                            <td class="border-1"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="border-1">Total Seat#</td>
+                                            <td class="border-1"></td>
+                                            <td class="border-1"></td>
+                                            <td class="border-1"></td>
+                                            <td class="border-1"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+    
+                                <!-- Booking info -->
+                                <h5>Booking Information</h5>
+                                <div class="row">
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="booking_info">
+                                            <label class="font_detail">Passenger Mobile</label>
+                                            <div class="input-group form_width font_detail">
+                                                <span class="input-group-text font_detail" id="basic-addon1">+880</span>
+                                                <input type="text" class="form-control font_detail" aria-label="Passenger Mobile" aria-describedby="basic-addon1">
+                                            </div>
+                                        
+                                            <label class="font_detail">Name</label>
+                                            <input class="form-control form_width font_detail" type="text">
+                                        
+                                            <label class="font_detail">Gender</label>
+                                            <select class="form-select form-select-sm form_width font_detail" aria-label="example">
+                                                <option selected>Select an option</option>
+                                                <option value="1">Male</option>
+                                                <option value="2">Female</option>
+                                                <option value="3">Other</option>
+                                            </select>
+    
+                                            <label class="font_detail">Age</label>
+                                            <input class="form-control form_width font_detail" type="text">
+                                        
+                                            <label class="font_detail">Passport</label>
+                                            <input class="form-control form_width font_detail" type="text">
+                                        
+                                            <label class="font_detail">Goods(kg)</label>
+                                            <input class="form-control form_width font_detail" type="text">
+    
+                                            <label class="font_detail">Goods Discount</label>
+                                            <input class="form-control form_width font_detail" type="text">
+                                        
+                                            <label class="font_detail">Total Paid</label>
+                                            <input class="form-control form_width font_detail" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-lg-6">
+                                        <div class="booking_info">
+    
+                                            <label class="font_detail">Boarding Point</label>
+                                            <select class="form-select form-select-sm form_width font_detail" aria-label="example">
+                                                <option selected>Select a boarding point</option>
+                                                <option value="1">Dhaka</option>
+                                                <option value="2">Chittagoang</option>
+                                                <option value="3">Rajshahi</option>
+                                            </select>
+                                        
+                                            <label class="font_detail">Drooping Point</label>
+                                            <select class="form-select form-select-sm form_width font_detail" aria-label="example">
+                                                <option selected>Select a drooping point</option>
+                                                <option value="1">Dhaka</option>
+                                                <option value="2">Chittagoang</option>
+                                                <option value="3">Rajshahi</option>  
+                                            </select>
+                                        
+                                            <label class="font_detail">Address</label>
+                                            <input class="form-control form_width font_detail" type="text">
+    
+                                            <label class="font_detail">Nationality</label>
+                                            <input class="form-control form_width font_detail" type="text">
+                                        
+                                            <label class="font_detail">Boarding Place</label>
+                                            <input class="form-control form_width font_detail" type="text">
+                                        
+                                            <label class="font_detail">Gross Pay</label>
+                                            <input class="form-control form_width font_detail" type="text">
+    
+                                            <label class="font_detail">Net pay</label>
+                                            <input class="form-control form_width font_detail" type="text">
+                                        
+                                            <label class="font_detail">Refund</label>
+                                            <input class="form-control form_width font_detail" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row justify-content-md-center mt-3">
+                                    <div class="col col-lg-2">
+                                    <button class="common_btn block_other">Reset</button>
+                                    <button class="common_btn corporate_btn">Confirm</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -24,11 +24,13 @@ for (i = 0; i < acc.length; i++) {
     else{
       buttonText.innerHTML = "View Seat";
     }
+
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
+    }
+    else {
+      panel.style.maxHeight = "100%";
+    }
   });
 }

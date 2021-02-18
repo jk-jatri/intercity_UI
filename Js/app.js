@@ -12,7 +12,7 @@ $(".toggle-password").click(function () {
 
 // Seat view details
 
-var acc = document.getElementsByClassName("table_row");
+var acc = document.getElementsByClassName("table_single_row");
 var buttonText = document.getElementById('button_text');
 var i;
 
@@ -25,12 +25,13 @@ for (i = 0; i < acc.length; i++) {
       buttonText.innerHTML = "View Seat";
     }
 
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
+    var details_panel = this.nextElementSibling;
+    if (details_panel.style.maxHeight) {
+      details_panel.style.maxHeight = null;
     }
     else {
-      panel.style.maxHeight = "100%";
+      details_panel.style.maxHeight = "100%";
+      details_panel.style.transition = "max-height 0.2s ease-out";
     }
   });
 }

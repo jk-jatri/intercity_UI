@@ -135,33 +135,42 @@
 
 }
 
-.table_row {
-    background-color: #eee;
+.table_single_row {
     color: #444;
     padding: 18px;
     width: 100%;
-    border: none;
+    border-bottom: 1px solid #ccc;
     text-align: left;
     outline: none;
     font-size: 15px;
     transition: 0.4s;
 }
 
-.button_clicked, .table_row:hover {
+.border_end{
+    border-right: 1px solid #ccc;
+}
+.border_end:last-child{
+    border-right: none;
+}
+
+.table_row:nth-child(odd){
+    background-color: #F7F7F7;
+}
+.table_row:nth-child(even){
+    background-color: #ececec;
+}
+
+.button_clicked, .table_single_row:hover {
     background-color: #ccc;
 }
 
-.panel {
+.details_panel {
     padding: 0 18px;
     background-color: white;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    transition: all 0.15s ease;
 }
-
-/* .maximum_height{
-    height: auto;
-} */
 
 .booking_info {
     display:grid;
@@ -176,4 +185,11 @@
 }
 .form_width{
     width: 250px !important;
+}
+
+.seat_details_view{
+    margin-bottom: 15px;
+}
+.panel_border{
+    border: 0;
 }

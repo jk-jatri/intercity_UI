@@ -1,6 +1,9 @@
-@media only screen and (min-width: 1441) and (max-width: 1876px){
+@media only screen and (min-width: 1400px){
     .font_detail{
         font-size: 12px !important;
+    }
+    .common_btn {
+        padding: 5px 4px !important;
     }
 }
 
@@ -8,8 +11,18 @@
     .font_detail,
     .dashboard_nav li a,
     .coach_detail tr th,
-    .coach_detail tr td{
-        font-size: 12px !important;
+    .coach_detail tr td,
+    .information_table tr td,
+    .information_table tr th{
+        font-size: 9px !important;
+    }
+
+    .form_width {
+        width: 200px !important;
+    }
+
+    .common_btn {
+        padding: 5px 4px;
     }
 }
 
@@ -17,7 +30,9 @@
     .font_detail,
     .dashboard_nav li a,
     .coach_detail tr th,
-    .coach_detail tr td{
+    .coach_detail tr td,
+    .information_table tr td,
+    .information_table tr th{
         font-size: 9px !important;
     }
 
@@ -40,3 +55,16 @@
         font-size: 11px !important;
     }
 }
+
+@media only screen and (max-width: 768px){
+    .font_detail{
+        font-size: 11px !important;
+    }
+    .booking_info{
+        margin-bottom: 4px;
+    }
+    .booking_info_sm_device{
+        margin-left: 13px;
+    }
+}
+

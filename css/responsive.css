@@ -59,6 +59,10 @@
         height: auto;
         padding-bottom: 0;
     }
+    
+    .common_btn {
+        padding: 5px 3px;
+    }
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px){
@@ -75,6 +79,9 @@
     .table_single_row{
         height: auto;
         padding-bottom: 0;
+    }
+    .common_btn {
+        padding: 5px 3px;
     }
 }
 

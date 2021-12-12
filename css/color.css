@@ -1,10 +1,18 @@
 .corporate_btn{
-    background-color: #FF6347;
-    border: 1px solid #FF6347;
+    background-color: #f04935;
+    border: 1px solid #ece3e2;
+    color: #fff;
+    /* padding: 2px 5px; */
 }
 
 .corporate_btn:hover{
-    color: #FF6347;
+    color: #f04935;
+}
+.primary_color{
+    color: #f04935;
+}
+.danger{
+    color: red;
 }
 
 .success_btn{
@@ -43,12 +51,12 @@
 }
 
 .male_booked{
-    background-color: #EB5757;
-    border: 1px solid #EB5757;
+    background-color: #f04935;
+    border: 1px solid #f04935;
 }
 
 .male_booked:hover{
-    color: #EB5757;
+    color: #f04935;
 }
 
 .block_other{
@@ -65,4 +73,27 @@
     border: 1px solid #ADB5BD;
     color: #000
 }
+.txt_color{
+    color:#f04935;
+}
+.bordaring_color{
+    color: rgb(14, 78, 14);
+    font-weight: 600;
+}
+.droping_color{
+    color: rgb(167, 11, 11);
+    font-weight: 600;
+}
+.drop{
+    font-size: small;
+    padding: 1px;
+}
 
+.select_area_phone_btn:not(.collapsed) {
+     color: rgb(245, 238, 238) !important; 
+     box-shadow: none;
+     border-color: 0;
+}
+.select_area_phone_btn:focus{
+    color: white;
+}

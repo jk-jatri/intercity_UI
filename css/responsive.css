@@ -47,7 +47,7 @@
     }
 
     .form_width {
-        width: 200px !important;
+        width: 100px !important;
     }
 
     .mb_lg_device{
@@ -99,8 +99,58 @@
         margin-bottom: 4px;
     }
 
-    .booking_info_sm_device{
+    /* .booking_info_sm_device{
         margin-left: 13px;
+    } */
+}
+
+@media only screen and (max-width:613px) and (min-width:360px){
+    .form_width{
+        width: 210px !important;
     }
 }
 
+@media only screen and (max-width:767px) and (min-width:0px){
+   .select_area{
+       display: none;
+   }
+}
+@media only screen and (min-width:768px){
+        .select_area_phone{
+            display: none;
+     }
+ }
+
+ @media only screen and (max-width:767px){
+    .bording_table{
+        display: none;
+
+ }
+
+    .bording_table_content{
+        display: none;
+ }
+ 
+}
+@media only screen and (min-width:768px){
+    .bording_table_phone{
+        display: none !important;
+ }
+ .phone{
+     display: none;
+ }
+
+}
+@media only screen and (max-width:767px){
+    .table_single_row{
+        border-bottom: none;
+        height: auto;
+    }
+   .textSize{
+       font-size: x-small;
+   }
+   .accordion-button:focus{
+       box-shadow: none;
+       outline: 0;
+   }
+}
